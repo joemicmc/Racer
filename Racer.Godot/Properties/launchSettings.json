@@ -1,6 +1,12 @@
 {
   "profiles": {
-    "Racer.Godot": {
+    "Debug": {
+      "commandName": "Executable",
+      "executablePath": "D:\\Applications\\Godot\\Godot_v4.4.1-stable_mono_win64\\Godot_v4.4.1-stable_mono_win64.exe",
+      "workingDirectory": ".",
+      "nativeDebugging": true
+    },
+    "Console": {
       "commandName": "Executable",
       "executablePath": "D:\\Applications\\Godot\\Godot_v4.4.1-stable_mono_win64\\Godot_v4.4.1-stable_mono_win64_console.exe",
       "workingDirectory": ".",

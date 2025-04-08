@@ -7,11 +7,11 @@ namespace Racer.Engine
 	{
 		private IScene Scene { get; set; }
 
-		public Game(ISceneDrawer sceneDrawer)
+		public Game()
 		{
 			this.Scene = new TitleScene();
 
-			sceneDrawer.Draw(this.Scene);
+			this.Scene.Draw();
 		}
 	}
 }

@@ -2,8 +2,8 @@
 {
 	using Racer.Contracts.Scenes;
 
-	public class TitleScene : IScene
+	public class TitleScene : Scene, IScene
 	{
-		public string Name => "It's Racing Time!";
+		public override string Name => "It's Racing Time!";
 	}
 }
