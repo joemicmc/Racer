@@ -4,7 +4,7 @@
 	using Racer.Contracts.Scenes;
 	using Racer.Contracts.Views;
 
-	public partial class Scene : IScene
+	public class Scene : Component, IScene
 	{
 		public IView View { get; set; }
 

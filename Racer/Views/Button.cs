@@ -4,7 +4,7 @@
 	using Racer.Contracts.Views;
 	using System;
 
-	public partial class Button : IButton
+	public class Button : View, IButton
 	{
 		public string Text { get; set; }
 

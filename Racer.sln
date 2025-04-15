@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Racer.Contracts", "Racer.Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Racer", "Racer\Racer.csproj", "{FD95DE19-A99A-463C-831D-4E5CF539E760}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Racer.Data", "Racer.Data\Racer.Data.csproj", "{677A5809-E0D5-4093-B756-9D51D106F24D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,14 @@ Global
 		{FD95DE19-A99A-463C-831D-4E5CF539E760}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
 		{FD95DE19-A99A-463C-831D-4E5CF539E760}.Release|Any CPU.ActiveCfg = ExportRelease|Any CPU
 		{FD95DE19-A99A-463C-831D-4E5CF539E760}.Release|Any CPU.Build.0 = ExportRelease|Any CPU
+		{677A5809-E0D5-4093-B756-9D51D106F24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677A5809-E0D5-4093-B756-9D51D106F24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677A5809-E0D5-4093-B756-9D51D106F24D}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677A5809-E0D5-4093-B756-9D51D106F24D}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{677A5809-E0D5-4093-B756-9D51D106F24D}.ExportRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{677A5809-E0D5-4093-B756-9D51D106F24D}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
+		{677A5809-E0D5-4093-B756-9D51D106F24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677A5809-E0D5-4093-B756-9D51D106F24D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
